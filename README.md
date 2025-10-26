@@ -31,8 +31,6 @@ A sleek, animated developer portfolio built with React, Vite, Tailwind CSS, and 
 
 ![Preview](https://github.com/shoaibahmed2755/portfolio/blob/main/Page.png)
 
-> Replace with real UI screenshots when available.
-
 ---
 
 ## 🧩 Project Structure
