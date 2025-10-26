@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; overflow-x: hidden; }
+  ::selection { background: #7c5cff; color: white; }
+  [id] { scroll-margin-top: 5.5rem; }
+}
+
+@layer components {
+  .container-section { @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8; }
+  .glass { @apply bg-white/10 dark:bg-white/5 backdrop-blur-md border border-white/10 shadow-glass; }
+  .btn { @apply inline-flex items-center gap-2 rounded-lg px-4 py-2 font-medium transition focus:outline-none focus:ring-2 focus:ring-brand-400; }
+  .btn-primary { @apply btn bg-gradient-to-r from-brand-500 to-cyan-400 text-white hover:opacity-90; }
+  .btn-secondary { @apply btn glass hover:bg-white/20; }
+  .badge { @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-white/10 border border-white/10; }
+}
+
+/* Background Aurora */
+.aurora {
+  position: fixed; inset: -20% -20% auto -20%; height: 100vh; pointer-events: none; z-index: -1; filter: blur(60px);
+}
+.aurora > div { position: absolute; border-radius: 9999px; opacity: .6; mix-blend-mode: screen; }
+.aurora .a1 { width: 50vw; height: 50vw; left: -10vw; top: -10vh; background: radial-gradient(circle at 30% 30%, #7c5cff, transparent 60%); animation: float 16s ease-in-out infinite; }
+.aurora .a2 { width: 50vw; height: 50vw; right: -20vw; top: -10vh; background: radial-gradient(circle at 70% 30%, #00e7ff, transparent 60%); animation: float 20s ease-in-out infinite; }
+.aurora .a3 { width: 60vw; height: 60vw; left: 10vw; bottom: -20vh; background: radial-gradient(circle at 50% 50%, #ff69b4, transparent 60%); animation: float 24s ease-in-out infinite; }
+
+/***** Utilities *****/
+.shadow-neo { box-shadow: 8px 8px 20px rgba(0,0,0,.35), -8px -8px 20px rgba(255,255,255,.05); }
