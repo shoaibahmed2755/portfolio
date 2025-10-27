@@ -10,7 +10,7 @@ A sleek, animated developer portfolio built with React, Vite, Tailwind CSS, and 
 ---
 
 ## 🌐 Live Demo  
-👉 https://portfolio-git-main-shoaib-ahmeds-projects-93d779fb.vercel.app/
+👉 https://shoaib-ahmed-portfolio.vercel.app/
 
 ---
 
@@ -29,9 +29,7 @@ A sleek, animated developer portfolio built with React, Vite, Tailwind CSS, and 
 
 ## 🖼️ Preview
 
-![Preview](https://raw.githubusercontent.com/shoaibahmed2755/portfolio/main/public/images/shoaib.jpeg)
-
-> Replace with real UI screenshots when available.
+![Preview](https://github.com/shoaibahmed2755/portfolio/blob/main/Page.png)
 
 ---
 
