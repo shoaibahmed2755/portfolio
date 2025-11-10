@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "node --no-warnings ./node_modules/vite/bin/vite.js build",
-    "preview": "vite preview"
+    "preview": "vite --host 0.0.0.0"
   },
   "dependencies": {
     "framer-motion": "^11.2.10",
