@@ -22,6 +22,6 @@ export const site = {
     leetcode: "https://leetcode.com/u/Uta3dmxQpj/",
   },
   resumeUrl:
-    "https://drive.google.com/file/d/1OuXthVUGi4F94oY_a4V1vb2vxQhxoUmf/view?usp=sharing",
+    "https://drive.google.com/file/d/1_U5ZsHlTOGfWvid194HMRaRq2a6HxA8K/view?usp=sharing",
   formspreeId: "movpqogj",
 };
