@@ -84,7 +84,7 @@ export default function Hero() {
           >
             <div className="rounded-full bg-[#0b1020] p-[2px] sm:p-[3px]">
               <img
-                src="/images/shoaib.jpeg"
+                src="/images/ss.png"
                 alt="Shoaib Ahmed"
                 className="w-48 h-48 sm:w-72 sm:h-72 rounded-full object-cover object-center"
               />

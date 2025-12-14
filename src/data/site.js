@@ -19,7 +19,7 @@ export const site = {
   social: {
     github: "https://github.com/shoaibahmed2755",
     linkedin: "https://www.linkedin.com/in/shoaib-ahmed-b05973274/",
-    leetcode: "https://leetcode.com/u/Uta3dmxQpj/",
+    leetcode: "https://leetcode.com/u/shoaibahmed2755/",
   },
   resumeUrl:
     "https://drive.google.com/file/d/1_U5ZsHlTOGfWvid194HMRaRq2a6HxA8K/view?usp=sharing",
